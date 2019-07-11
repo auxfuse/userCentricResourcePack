@@ -1,6 +1,7 @@
 body {
     height: 100vh;
-    background: linear-gradient(180deg, #4C154D 50%, #CD92FE 100%);
+    background: linear-gradient(180deg, #4C154D 50%, #986ac2 100%);
+    font-family: consolas, sans-serif;
 }
 
 /* Navbar */
@@ -15,5 +16,41 @@ body {
 .navbar-brand img {
     height: 70px;
     width: 70px;
+}
+
+/* Section Margin to stop from disappearing under NavBar */
+section {
+    margin-top: 100px;
+}
+
+/* Fancy Border radius around image
+ & `object-fit: contain;` to ensure image scales without loss to aspect ratio */
+.welcome-image img {
+    margin: 10px;
+    height: 200px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
+    border-radius: 100% 0% 100% 0% / 20% 80% 20% 80%;
+    border: 2px solid #2eb67d;
+}
+
+.welcome {
+    margin: auto 0;
+}
+
+.welcome-text {
+    color: #2eb67d;
+    font-size: 16px;
+    text-align: center;
+}
+
+.about::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto 0;
+    background: #ecb22e;
 }
 
