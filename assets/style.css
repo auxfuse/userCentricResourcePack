@@ -1,6 +1,7 @@
 body {
     height: 100vh;
-    background: linear-gradient(180deg, #4C154D 50%, #986ac2 100%);
+    /*background: linear-gradient(180deg, #4C154D 50%, #986ac2 100%);*/
+    background-color: #4C154D;
     font-family: consolas, sans-serif;
 }
 
@@ -31,7 +32,7 @@ section {
     object-fit: contain;
     min-height: 100%;
     max-height: none;
-    border-radius: 100% 0% 100% 0% / 20% 80% 20% 80%;
+    border-radius: 100% 0 100% 0 / 20% 80% 20% 80%;
     border: 2px solid #2eb67d;
 }
 
@@ -40,6 +41,7 @@ section {
 }
 
 .welcome-text {
+    margin-top: 20px;
     color: #2eb67d;
     font-size: 16px;
     text-align: center;
@@ -54,3 +56,50 @@ section {
     background: #ecb22e;
 }
 
+/* Resource Section Styles */
+
+.resource-header {
+    color: #36c5f0;
+    font-style: italic;
+    text-align: center;
+}
+
+.resource-tooltip {
+    font-size: 10px;
+    color: #ecb22e;
+    text-align: center;
+}
+
+.resource-list-header {
+    text-decoration: none;
+    list-style: none;
+}
+
+.resource-list-header::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-image: url('../assets/images/slackIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.resource-list-header a {
+    font-size: 18px;
+    color: #36c5f0;
+}
+
+.li-subtext {
+    color: #2eb67d;
+    padding: 5px 0 0 50px;
+}
+
+/*.youtube-link {
+    color: #2eb67d;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0 0 10px;
+}*/
