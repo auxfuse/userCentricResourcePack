@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #4C154D 50%, #CD92FE 100%);
+}
+
 /* Navbar */
 .navbar {
     margin-bottom: 0;
@@ -11,3 +16,4 @@
     height: 70px;
     width: 70px;
 }
+
