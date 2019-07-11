@@ -1,0 +1,13 @@
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    background-color: #4C154D;
+    text-align: center;
+}
+
+/* Logo */
+.navbar-brand img {
+    height: 70px;
+    width: 70px;
+}
