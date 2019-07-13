@@ -1,8 +1,19 @@
+/* Global styles */
 body {
     height: 100vh;
     /*background: linear-gradient(180deg, #4C154D 50%, #986ac2 100%);*/
     background-color: #4C154D;
     font-family: consolas, sans-serif;
+}
+
+/* Section Margin on .about to stop from disappearing under NavBar */
+.about {
+    margin-top: 100px;
+}
+
+/* Section margin-tops */
+.resources, .tools, .additional {
+    margin-top: 30px;
 }
 
 /* Navbar */
@@ -17,11 +28,6 @@ body {
 .navbar-brand img {
     height: 70px;
     width: 70px;
-}
-
-/* Section Margin to stop from disappearing under NavBar */
-section {
-    margin-top: 100px;
 }
 
 /* Fancy Border radius around image
@@ -57,7 +63,6 @@ section {
 }
 
 /* Resource Section Styles */
-
 .resource-header {
     color: #36c5f0;
     font-style: italic;
@@ -93,17 +98,29 @@ section {
 
 .li-subtext {
     color: #ffffff;
-    padding: 5px 0 0 50px;
+    padding: 5px 40px 0 50px;
 }
 
-/*.youtube-link {
-    color: #2eb67d;
-    font-size: 18px;
-    text-decoration: none;
-    list-style: none;
-    padding: 5px 0 0 10px;
-}*/
+.resources::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto 0;
+    background: #ecb22e;
+}
 
 .card {
-    height: 24rem;
+    height: 18rem;
+    margin: 10px;
+    padding: 15px 0;
+}
+
+.cards::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto 0;
+    background: #ecb22e;
 }
