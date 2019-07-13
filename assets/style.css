@@ -6,12 +6,12 @@ body {
     font-family: consolas, sans-serif;
 }
 
-/* Section Margin on .about to stop from disappearing under NavBar */
+    /* Section Margin on .about to stop from disappearing under NavBar */
 .about {
     margin-top: 100px;
 }
 
-/* Section margin-tops */
+    /* Section margin-tops */
 .resources, .tools, .additional {
     margin-top: 30px;
 }
@@ -24,14 +24,15 @@ body {
     text-align: center;
 }
 
-/* Logo */
+    /* Logo */
 .navbar-brand img {
     height: 70px;
     width: 70px;
 }
 
-/* Fancy Border radius around image
- & `object-fit: contain;` to ensure image scales without loss to aspect ratio */
+/* About Section styles */
+    /* Fancy Border radius around image
+    & `object-fit: contain;` to ensure image scales without loss to aspect ratio */
 .welcome-image img {
     margin: 10px;
     height: 200px;
@@ -53,6 +54,7 @@ body {
     text-align: center;
 }
 
+    /* Block divider to simulate end of about section */
 .about::after {
     content: "";
     display: block;
@@ -80,6 +82,7 @@ body {
     list-style: none;
 }
 
+    /* List item bullet styled to Slack icon */
 .resource-list-header::before {
     content: '';
     display: inline-block;
@@ -101,6 +104,7 @@ body {
     padding: 5px 40px 0 50px;
 }
 
+    /* Block divider to simulate end of resource section */
 .resources::after {
     content: "";
     display: block;
@@ -110,12 +114,14 @@ body {
     background: #ecb22e;
 }
 
+/* Card Section Styles */
 .card {
     height: 18rem;
     margin: 10px;
     padding: 15px 0;
 }
 
+/* Block divider to simulate end of card section */
 .cards::after {
     content: "";
     display: block;
