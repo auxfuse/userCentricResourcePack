@@ -103,3 +103,8 @@ section {
     list-style: none;
     padding: 5px 0 0 10px;
 }*/
+
+.card {
+    height: 24rem;
+    width: 18rem;
+}
