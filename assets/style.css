@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    background: linear-gradient(180deg, #4C154D 50%, #986ac2 100%);
+    background: linear-gradient(180deg, #4C154D 30%, #5f1960 50%, #5f1960 70%, #4C154D 100%);
     /*background-color: #4C154D;*/
     font-family: consolas, sans-serif;
 }
