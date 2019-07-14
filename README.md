@@ -1,4 +1,4 @@
-# User Centric Frontend Student Resource Pack!
+# <img src="assets/images/slackIcon.png" width="25" height="25"> User Centric Frontend Student Resource Pack!
 
 ---
 ## What does it do and what does it need to fulfil?
