@@ -124,7 +124,7 @@ body {
     text-align: center;
     background-color: #4C154D;
     border: #2eb67d 1px solid;
-    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20% ;
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
 }
 
 .card-title {
@@ -166,6 +166,68 @@ body {
     background-image: url('../assets/images/slackIcon.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #2eb67d;
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background: linear-gradient(180deg, #4C154D 30%, #5f1960 50%, #5f1960 70%, #4C154D 100%);
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
+    color: #36c5f0;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #2eb67d;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
+    transform: rotateY(180deg);
+}
+
+.quote-owner {
+    height: 250px;
+    line-height: 250px;
+}
+
+.quote {
+    margin: 20px 5px 20px 5px;
 }
 
 /* Media Queries */
