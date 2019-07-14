@@ -230,8 +230,23 @@ body {
     margin: 20px 5px 20px 5px;
 }
 
-.flip-card:active .flip-card-inner {
-    transform: rotateY(180deg);
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #4C154D;
+    color: #36c5f0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 25%;
 }
 
 /* Media Queries */
