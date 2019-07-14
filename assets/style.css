@@ -171,7 +171,7 @@ body {
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    margin: 20px;
+    margin: 20px auto;
     width: 200px;
     height: 250px;
     border: 1px solid #2eb67d;
@@ -240,6 +240,7 @@ footer {
     text-align: center;
     background-color: #4C154D;
     color: #36c5f0;
+    padding: 15px 0;
 }
 
 .copyright {
@@ -258,6 +259,7 @@ footer {
         margin: 10px auto;
     }
 }
+
     /* From 992px and up set height of card to 30rem to ensure
     content inside card does not overflow */
 @media (min-width: 992px) {
