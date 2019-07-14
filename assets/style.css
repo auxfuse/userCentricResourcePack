@@ -230,6 +230,10 @@ body {
     margin: 20px 5px 20px 5px;
 }
 
+.flip-card:active .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
 /* Media Queries */
     /* Set max-width for cards on mobile view */
 @media (min-width: 320px) {

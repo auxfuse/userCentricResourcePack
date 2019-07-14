@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a44a8ea-066c-4144-b0ba-44aeac35303a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1a44a8ea-066c-4144-b0ba-44aeac35303a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="433">
-                  <caret line="418" column="89" selection-start-line="418" selection-start-column="89" selection-end-line="418" selection-end-column="89" />
+                <state relative-caret-position="7242">
+                  <caret line="426" lean-forward="true" selection-start-line="426" selection-end-line="426" />
                 </state>
               </provider>
             </entry>
@@ -39,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="215" column="18" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
+                <state relative-caret-position="-108">
+                  <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -55,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/style.css" />
       </list>
     </option>
   </component>
@@ -127,12 +125,12 @@
       <workItem from="1563015435853" duration="39000" />
       <workItem from="1563015756194" duration="30000" />
       <workItem from="1563015897514" duration="13543000" />
-      <workItem from="1563096850367" duration="16486000" />
+      <workItem from="1563096850367" duration="17281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44234000" />
+    <option name="totallyTimeSpent" value="45029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -176,8 +174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="418" column="89" selection-start-line="418" selection-start-column="89" selection-end-line="418" selection-end-column="89" />
+        <state relative-caret-position="7242">
+          <caret line="426" lean-forward="true" selection-start-line="426" selection-end-line="426" />
         </state>
       </provider>
     </entry>
