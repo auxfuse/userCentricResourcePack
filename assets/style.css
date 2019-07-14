@@ -22,6 +22,12 @@ body {
     text-align: center;
 }
 
+    /* Font Awesome icons before section header text styles */
+.fa-book, .fa-tools, .fa-code {
+    font-size: 32px;
+    margin: auto 8px;
+}
+
 .resource-tooltip, .tools-tooltip, .additional-tooltip {
     font-size: 10px;
     color: #ecb22e;
@@ -168,6 +174,16 @@ body {
     background-repeat: no-repeat;
 }
 
+.quotes-header {
+    color: #ecb22e;
+    font-style: italic;
+}
+
+.fa-comment {
+    font-size: 18px;
+    margin: auto 8px;
+}
+
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
@@ -228,6 +244,15 @@ body {
 
 .quote {
     margin: 20px 5px 20px 5px;
+}
+
+.additional::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto 0;
+    background: #ecb22e;
 }
 
 /* Footer */
