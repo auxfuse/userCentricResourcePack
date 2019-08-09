@@ -3,26 +3,29 @@ body {
     background: linear-gradient(180deg, #4C154D 30%, #5f1960 50%, #5f1960 70%, #4C154D 100%);
     /*background-color: #4C154D;*/
     font-family: consolas, sans-serif;
+    /* Needed for Bootstrap Scrollspy */
+    position: relative;
+
 }
 
-    /* Section Margin on .about to stop from disappearing under NavBar */
+/* Section Margin on .about to stop from disappearing under NavBar */
 .about {
     margin-top: 100px;
 }
 
-    /* Section margin-tops */
+/* Section margin-tops */
 .resources, .tools, .additional {
     margin-top: 30px;
 }
 
-    /* Section header styles */
+/* Section header styles */
 .resource-header, .tools-header, .additional-header {
     color: #36c5f0;
     font-style: italic;
     text-align: center;
 }
 
-    /* Font Awesome icons before section header text styles */
+/* Font Awesome icons before section header text styles */
 .fa-book, .fa-tools, .fa-code {
     font-size: 32px;
     margin: auto 8px;
@@ -43,7 +46,7 @@ body {
     text-align: center;
 }
 
-    /* Logo */
+/* Logo */
 .navbar-brand img {
     height: 70px;
     width: 70px;
@@ -73,7 +76,7 @@ body {
     text-align: center;
 }
 
-    /* Block divider to simulate end of about section */
+/* Block divider to simulate end of about section */
 .about::after {
     content: "";
     display: block;
@@ -89,7 +92,7 @@ body {
     list-style: none;
 }
 
-    /* List item bullet styled to Slack icon */
+/* List item bullet styled to Slack icon */
 .resource-list-header::before {
     content: '';
     display: inline-block;
@@ -108,10 +111,10 @@ body {
 
 .li-subtext {
     color: #ffffff;
-    padding: 5px 40px 0 50px;
+    padding: 0.50rem 1.25rem 0 0;
 }
 
-    /* Block divider to simulate end of resource section */
+/* Block divider to simulate end of resource section */
 .resources::after {
     content: "";
     display: block;
@@ -123,11 +126,11 @@ body {
 
 /* Card Section Styles */
 .card {
-    margin: 10px;
+    height: 22rem;
     padding: 15px 0;
     color: white;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     background-color: #4C154D;
     border: #2eb67d 1px solid;
     border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
@@ -136,10 +139,11 @@ body {
 .card-title {
     font-size: 18px;
     color: #36c5f0;
+    text-align: center;
 }
 
-    /* Block divider to simulate end of card section */
-.cards::after {
+/* Block divider to simulate end of tools section */
+.tools::after {
     content: "";
     display: block;
     height: 1px;
@@ -184,7 +188,8 @@ body {
     margin: auto 8px;
 }
 
-    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card container - set the width and height to whatever you want.
+   We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
     margin: 20px auto;
@@ -195,7 +200,7 @@ body {
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-    /* This container is needed to position the front and back side */
+/* This container is needed to position the front and back side */
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -204,12 +209,12 @@ body {
     transform-style: preserve-3d;
 }
 
-    /* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
 
-    /* Position the front and back side */
+/* Position the front and back side */
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -217,7 +222,7 @@ body {
     backface-visibility: hidden;
 }
 
-    /* Style the front side (fallback if image is missing) */
+/* Style the front side (fallback if image is missing) */
 .flip-card-front {
     background: linear-gradient(180deg, #4C154D 30%, #5f1960 50%, #5f1960 70%, #4C154D 100%);
     border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
@@ -226,7 +231,7 @@ body {
     text-align: center;
 }
 
-    /* Style the back side */
+/* Style the back side */
 .flip-card-back {
     background-color: #2eb67d;
     color: #000000;
@@ -275,28 +280,38 @@ footer {
     line-height: 25%;
 }
 
+/* ----- Changes to Back To Top Button ----- */
+/* Back to top button */
+.bttop {
+    width: 65px;
+    background: #36c5f0;
+    position: fixed;
+    right: -9px;
+    bottom: 33px;
+    z-index: 9998;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.bttop i {
+    color: #4C154D;
+    font-size: 35px;
+    padding: 7px;
+}
+
 /* Media Queries */
     /* Set max-width for cards on mobile view */
-@media (min-width: 320px) {
+@media (max-width: 576px) {
+    .bttop {
+        width: 40px;
+    }
+
+    .bttop i {
+       font-size: 17px;
+    }
+
     .card {
-        height: 22rem;
         max-width: 300px;
         margin: 10px auto;
-    }
-}
-
-    /* From 992px and up set height of card to 30rem to ensure
-    content inside card does not overflow */
-@media (min-width: 992px) {
-    .card {
-        height: 30rem;
-    }
-}
-
-    /* Resize card height to 24rem at breakpoint 1200px to
-    simulate resize to content */
-@media (min-width: 1200px) {
-    .card {
-        height: 24rem;
     }
 }

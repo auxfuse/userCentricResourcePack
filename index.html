@@ -13,10 +13,10 @@
     <title>User Centric Frontend Development Resource Pack</title>
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="241">
     <header>
         <!-- Nav -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top" id="navbar">
 
                 <!-- Logo -->
                 <a class="navbar-brand" href="index.html">
@@ -31,7 +31,7 @@
                 <!-- Navigation Links -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto uppercase">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -51,10 +51,10 @@
     <section class="about" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-3 welcome-image">
+                <div class="col-lg-3 welcome-image">
                     <img class="image-fluid mx-auto d-block" src="assets/images/bootstrapCode.jpg" alt="boostrap snip">
                 </div>
-                <div class="col-sm-12 col-lg-9 welcome">
+                <div class="col-lg-9 welcome">
                     <p class="welcome-text">Welcome to the Code Institute Full Stack
                     Software Development Resource Pack! Like many of you, I am relatively new to
                     the world of digital innovation, and through my time on Slack have come across
@@ -71,13 +71,13 @@
     <section class="resources" id="resources">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <h1 class="resource-header"><i class="fas fa-book"></i>Resources:</h1>
                     <p class="resource-tooltip">Click on any of the below headers to be taken directly to the resource.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <ul>
                         <li class="resource-list-header"><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a>
                             <p class="li-subtext">W3 is an educational website for learning programming languages & frameworks, such as HTML, CSS & Bootstrap (and many more). All of which you will be using through UCFD!</p>
@@ -114,7 +114,7 @@
                                 deals with start-up, linking to the website and the icons and how to style them to fit the theme/palette of your website!</p>
                         </li>
                         <li class="resource-list-header"><a href="https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562670694487700" target="_blank" rel="noopener">Elements of User Experience</a>
-                            <p class="li-subtext">This document write up was found by a fellow student David 'H' Hubber, it is written by Jesse James Garrett and is only one chapter of an even bigger resource. It details the importance of each 
+                            <p class="li-subtext">This document write up was found by a fellow student David 'H' Hubber, it is written by Jesse James Garrett and is only one chapter of an even bigger resource. It details the importance of each
                                 of the five planes of User Experience.</p>
                         </li>
                         <li class="resource-list-header"><a href="https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/" target="_blank" rel="noopener">User Stories Examples</a>
@@ -134,13 +134,14 @@
     <section class="tools" id="tools">
         <div class="container cards">
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <h1 class="tools-header"><i class="fas fa-tools"></i>Tools:</h1>
                     <p class="tools-tooltip">Click on any of the below card headers to be taken directly to the tool!</p>
                 </div>
             </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
+
+            <div class="row card-row row match-height">
+                <div class="col-md-6 col-lg-4 p-3 ">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://color.adobe.com/create" target="_blank" rel="noopener">
@@ -151,7 +152,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="http://eye-dropper.kepi.cz/" target="_blank" rel="noopener">
@@ -162,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://validator.w3.org/#validate_by_input" target="_blank" rel="noopener">
@@ -173,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://www.youtube.com/watch?v=x4q86IjJFag" target="_blank" rel="noopener">
@@ -184,9 +185,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener">
@@ -197,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://typora.io/" target="_blank" rel="noopener">
@@ -208,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://autoprefixer.github.io/" target="_blank" rel="noopener">
@@ -219,7 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://www.diffchecker.com/" target="_blank" rel="noopener">
@@ -230,9 +229,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://tinyjpg.com/" target="_blank" rel="noopener">
@@ -243,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://code-institute-room.slack.com/archives/C0L316Z96/p1549645893077000" target="_blank" rel="noopener">
@@ -254,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://www.pexels.com/" target="_blank" rel="noopener">
@@ -265,7 +262,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://mycolor.space/" target="_blank" rel="noopener">
@@ -276,9 +273,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://codepen.io/" target="_blank" rel="noopener">
@@ -288,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="http://colormind.io/" target="_blank" rel="noopener">
@@ -298,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card">
                         <div class="card-body">
                             <a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener">
@@ -308,20 +303,19 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 
     <section class="additional" id="additional">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <h1 class="additional-header"><i class="fas fa-code"></i>Additional:</h1>
                     <p class="additional-tooltip">Supplementary info! Helpful tips, advice & quotes from Slack users.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <p class="additional-text">A hot topic right now is "What Editor can we use?". Recently Code Institute students had to migrate from Cloud9, (an online
                     IDE), to AWS-Cloud9, (Cloud9 assumed by Amazon services). With this migration, it brought a host of new issues, learning curves and new questions such as the one above.
                     For the record, although it is recommended that students use the AWS-C9 IDE, it is important to note that this is not mandatory.<br>
@@ -350,10 +344,13 @@
                 </ul>
             </div>
         </div>
+
         <div class="container additional-cards d-none d-sm-none d-md-block">
-            <h4 class="quotes-header"><i class="fas fa-comment"></i>Quotes from the Community</h4>
+            <div class="col-sm-12">
+                <h4 class="quotes-header"><i class="fas fa-comment"></i>Quotes from the Community</h4>
+            </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -365,7 +362,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -377,7 +374,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -390,7 +387,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -403,9 +400,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -417,7 +412,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -429,7 +424,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -442,7 +437,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-md-4 col-lg-3">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -462,6 +457,11 @@
         <span class="footer-text text-center my-auto">Made by Anthony, Student lead for UCFD July/August 2019</span><br>
         <span class="copyright text-center my-auto">For educational purposes Code Institute &copy;</span>
     </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+      <div class="bttop">
+        <a href="#"> <i class="fas fa-arrow-circle-up"></i></a>
+      </div>
 
 <!-- JQuery for Navbar expansion/collapse & Modal popup -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
