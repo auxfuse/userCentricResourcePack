@@ -315,3 +315,10 @@ footer {
         margin: 10px auto;
     }
 }
+
+/* For Extra Large Devices */
+@media (min-width: 1200px) {
+    .card {
+        height: 28rem;
+    }
+}
