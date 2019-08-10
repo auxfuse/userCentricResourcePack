@@ -32,7 +32,7 @@ body {
 }
 
 .resource-tooltip, .tools-tooltip, .additional-tooltip {
-    font-size: 10px;
+    font-size: 14px;
     color: #ecb22e;
     text-align: center;
 }
@@ -73,7 +73,7 @@ body {
     margin-top: 20px;
     color: #ffffff;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 /* Block divider to simulate end of about section */
@@ -102,6 +102,7 @@ body {
     background-image: url('../assets/images/slackIcon.png');
     background-size: contain;
     background-repeat: no-repeat;
+    vertical-align: middle;
 }
 
 .resource-list-header a {
@@ -159,12 +160,12 @@ body {
 }
 
 .additional-list-header {
-    text-decoration: none;
     list-style: none;
 }
 
 .additional-list-header a {
     color: #36c5f0;
+    font-size: 18px;
 }
 
 .additional-list-header::before {
@@ -176,6 +177,27 @@ body {
     background-image: url('../assets/images/slackIcon.png');
     background-size: contain;
     background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+/* Tool Section Styles */
+.tool-list-header {
+    list-style: none;
+    color: #36c5f0;
+    font-size: 24px;
+    padding-left: 40px;
+}
+
+.tool-list-header::before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    background-image: url('../assets/images/slackIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
 }
 
 .quotes-header {
@@ -313,6 +335,10 @@ footer {
     .card {
         max-width: 300px;
         margin: 10px auto;
+    }
+
+    .resource-tooltip, .tools-tooltip, .additional-tooltip {
+    font-size: 10px;
     }
 }
 
