@@ -20,9 +20,9 @@
 	 "content": "The gold star in terms of trying to find that missing `.` or `-` in your html markup. Any developer worth their salt, will use this tool on a regular basis to validate their code and make sure every div is closed and every element is structured correctly!"
  },
  {
-	 "name":
-	 "url":
-	 "content":
+	 "name": "CSS Validator",
+	 "url": "https://jigsaw.w3.org/css-validator/#validate_by_input",
+	 "content": "As with the HTML Validator, this CSS version ensure that you have accounted for every possible closing curly brace, every `,` comma seperated when needed. Another one of those essential tools for all developers, maintaining that tool of the trade mantra!"
  },
  {
 	 "name":
