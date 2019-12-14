@@ -4,84 +4,84 @@
     "url": "https://color.adobe.com/create",
     "content": "The Adobe Color service helps you choose harmonious and appealing color combinations for your design projects, it even has an upload image element that takes your image through it's intuitive system and picks the color scheme for you!"
   },
- {
-	 "name": "CSS Matic",
-	 "url": "https://www.cssmatic.com/",
-	 "content": "The CSS Matic helps you to generate a gradient color of your structure, border radius towards a circle or a rectangle, background noise texture and box shadows using CSS and providing you all the relevant toolkits to work on the different browsers!"
- },
- {
-	 "name": "Color Picker",
-	 "url": "http://eye-dropper.kepi.cz/",
-	 "content": "This simple addition to Chrome will make your life so much easier when trying to find the color a particular site is using, made by Kepi on Github and the Color Picker that I have used for quite some time now."
- },
- {
-	 "name": "HTML Validator",
-	 "url": "https://validator.w3.org/#validate_by_input",
-	 "content": "The gold star in terms of trying to find that missing `.` or `-` in your html markup. Any developer worth their salt, will use this tool on a regular basis to validate their code and make sure every div is closed and every element is structured correctly!"
- },
- {
-	 "name": "CSS Validator",
-	 "url": "https://jigsaw.w3.org/css-validator/#validate_by_input",
-	 "content": "As with the HTML Validator, this CSS version ensure that you have accounted for every possible closing curly brace, every `,` comma seperated when needed. Another one of those essential tools for all developers, maintaining that tool of the trade mantra!"
- },
- {
-	 "name": "Chrome DevTools",
-	 "url": "https://www.youtube.com/watch?v=x4q86IjJFag",
-	 "content": "Ok, so I obviously can't link you to the DevTools, but I have linked a video from Traversy Media, which is a tutorial Crash Course on how to open and use! I 100% recommend you get used to this Tool, as it is every developer's best friend."
- },
- {
-	 "name": "Boostnote",
-	 "url":"https://boostnote.io/",
-	 "content": "A truly distraction free, live preview, what you see is what you get Markdown Editor. Install this to your local device for a simple and effective README editor."
- },
- {
-	 "name": "CSS Autoprefixer",
-	 "url": "https://autoprefixer.github.io/",
-	 "content": "Take your CSS code blocks, and parse them through this incredible tool, which digests those blocks and returns the appropriate vendor prefixes needed for your code to work in ALL browsers, anything from animations to flexbox and eveything in between."
- },
- {
-	 "name": "Diffchecker",
-	 "url": "https://www.diffchecker.com/",
-	 "content": "This tool enables you to compare text differences between two text files, and it also works on html. Scenario: you have source code, but when you implement it into your code, it just doesn't look right, that's where Diffchecker comes in! Let it tell you!"
- },
- {
-	 "name": "TinyJPG",
-	 "url": "https://tinyjpg.com/",
-	 "content": "Take your imagery to the next level of compression with TinyJPG. Upload your image, let the analyser do it's job and watch as the encoder compresses & creates an optimally compressed version of that file for you to download."
- },
- {
-	 "name": "Balsamiq",
-	 "url": "https://code-institute-room.slack.com/archives/C0L316Z96/p1549645893077000",
-	 "content": "This link will bring you back to Slack, where you can follow the post from Niel_ci to download and get this wireframing tool completely for Free! With Balsamiq, anyone can design and plan great website for all viewport widths."
- },
- {
-	 "name": "Pexels",
-	 "url": "https://www.pexels.com/",
-	 "content": "Pexels provides free stock photos, which can be used for commercial design purposes without the hassle of copyright infringement. Very easy site to navigate and with thousand of photos, don't get lost!! Just click and download to your local device."
- },
- {
-	 "name": "ColorSpace",
-	 "url": "https://mycolor.space/",
-	 "content": "Another great tool on finding that perfect Color palette. Does your website logo contain one dominant color? Cool, just type in the hexcode into ColorSpace and let it tell you the perfect combination of colors for your project."
- },
- {
-	 "name": "CodePen",
-	 "url": "https://codepen.io/",
-	 "content": "Welcome to the world of online's easiest IDE!! CodePen.io. "
- },
- {
-	 "name": "Colormind",
-	 "url": "http://colormind.io/",
-	 "content": "Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art."
- },
- {
-	 "name": "WebAIM",
-	 "url": "https://webaim.org/resources/contrastchecker/",
-	 "content": "Color contrast checker."
- },
- {
-	 "name":
-	 "url":
-	 "content":
- },
+  {
+    "name": "CSS Matic",
+    "url": "https://www.cssmatic.com/",
+    "content": "The CSS Matic helps you to generate a gradient color of your structure, border radius towards a circle or a rectangle, background noise texture and box shadows using CSS and providing you all the relevant toolkits to work on the different browsers!"
+  },
+  {
+    "name": "Color Picker",
+    "url": "http://eye-dropper.kepi.cz/",
+    "content": "This simple addition to Chrome will make your life so much easier when trying to find the color a particular site is using, made by Kepi on Github and the Color Picker that I have used for quite some time now."
+  },
+  {
+    "name": "HTML Validator",
+    "url": "https://validator.w3.org/#validate_by_input",
+    "content": "The gold star in terms of trying to find that missing `.` or `-` in your html markup. Any developer worth their salt, will use this tool on a regular basis to validate their code and make sure every div is closed and every element is structured correctly!"
+  },
+  {
+    "name": "CSS Validator",
+    "url": "https://jigsaw.w3.org/css-validator/#validate_by_input",
+    "content": "As with the HTML Validator, this CSS version ensure that you have accounted for every possible closing curly brace, every `,` comma seperated when needed. Another one of those essential tools for all developers, maintaining that tool of the trade mantra!"
+  },
+  {
+    "name": "Chrome DevTools",
+    "url": "https://www.youtube.com/watch?v=x4q86IjJFag",
+    "content": "Ok, so I obviously can't link you to the DevTools, but I have linked a video from Traversy Media, which is a tutorial Crash Course on how to open and use! I 100% recommend you get used to this Tool, as it is every developer's best friend."
+  },
+  {
+    "name": "Boostnote",
+    "url": "https://boostnote.io/",
+    "content": "A truly distraction free, live preview, what you see is what you get Markdown Editor. Install this to your local device for a simple and effective README editor."
+  },
+  {
+    "name": "CSS Autoprefixer",
+    "url": "https://autoprefixer.github.io/",
+    "content": "Take your CSS code blocks, and parse them through this incredible tool, which digests those blocks and returns the appropriate vendor prefixes needed for your code to work in ALL browsers, anything from animations to flexbox and eveything in between."
+  },
+  {
+    "name": "Diffchecker",
+    "url": "https://www.diffchecker.com/",
+    "content": "This tool enables you to compare text differences between two text files, and it also works on html. Scenario: you have source code, but when you implement it into your code, it just doesn't look right, that's where Diffchecker comes in! Let it tell you!"
+  },
+  {
+    "name": "TinyJPG",
+    "url": "https://tinyjpg.com/",
+    "content": "Take your imagery to the next level of compression with TinyJPG. Upload your image, let the analyser do it's job and watch as the encoder compresses & creates an optimally compressed version of that file for you to download."
+  },
+  {
+    "name": "Balsamiq",
+    "url": "https://code-institute-room.slack.com/archives/C0L316Z96/p1549645893077000",
+    "content": "This link will bring you back to Slack, where you can follow the post from Niel_ci to download and get this wireframing tool completely for Free! With Balsamiq, anyone can design and plan great website for all viewport widths."
+  },
+  {
+    "name": "Pexels",
+    "url": "https://www.pexels.com/",
+    "content": "Pexels provides free stock photos, which can be used for commercial design purposes without the hassle of copyright infringement. Very easy site to navigate and with thousand of photos, don't get lost!! Just click and download to your local device."
+  },
+  {
+    "name": "ColorSpace",
+    "url": "https://mycolor.space/",
+    "content": "Another great tool on finding that perfect Color palette. Does your website logo contain one dominant color? Cool, just type in the hexcode into ColorSpace and let it tell you the perfect combination of colors for your project."
+  },
+  {
+    "name": "CodePen",
+    "url": "https://codepen.io/",
+    "content": "Welcome to the world of online's easiest IDE!! CodePen.io. "
+  },
+  {
+    "name": "Colormind",
+    "url": "http://colormind.io/",
+    "content": "Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art."
+  },
+  {
+    "name": "WebAIM",
+    "url": "https://webaim.org/resources/contrastchecker/",
+    "content": "Color contrast checker."
+  },
+  {
+    "name": "Unicorn Revealer",
+    "url": "https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln",
+    "content": "As a web developer it can be hard to inspect and find out where overlow is located. You can sprinke some 🦄🌈 on the website and it will turn all black and pink, this will show the borders and make it easier to debug. It is as simple as right click a website Sparkle it on once done right click and remove the sparkle. "
+  }
 ]
