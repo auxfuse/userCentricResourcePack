@@ -40,9 +40,9 @@
 	 "content": "Take your CSS code blocks, and parse them through this incredible tool, which digests those blocks and returns the appropriate vendor prefixes needed for your code to work in ALL browsers, anything from animations to flexbox and eveything in between."
  },
  {
-	 "name":
-	 "url":
-	 "content":
+	 "name": "Diffchecker",
+	 "url": "https://www.diffchecker.com/",
+	 "content": "This tool enables you to compare text differences between two text files, and it also works on html. Scenario: you have source code, but when you implement it into your code, it just doesn't look right, that's where Diffchecker comes in! Let it tell you!"
  },
  {
 	 "name":
