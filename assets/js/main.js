@@ -1,22 +1,21 @@
-const loadingSpinner = $("#loading-spinner");
+const loadingSpinner = $(".loader");
 const mainbody = $("main");
-$(document).ready(function() {
-  function getData(id) {
-    $(mainbody).css("display", "none");
-    $(loadinSpinner).css("display", "block");
-    loadingSpinner.css();
-    fetch(`assets/data/${id}.json`)
-      .then(res => res.json())
-      .then(data => {
-        generateHTML(id, data);
-      })
-      .catch(error => console.log(error));
-  }
+const assetsList = ["resources", "tools", "additional", "quotes"];
 
+$(document).ready(function() {
+  $("body").scrollspy({ target: "#navbar" });
+  assetsList.forEach(item => getData(item));
+
+  /**
+   * Will loop over the data append to the list from the id.
+   * @param {string} id
+   * @param {Array} data - This is the JSON data
+   */
   function generateHTML(id, data) {
     data.forEach(element => {
       $(`#${id}-list`).append(generateContent(id, element));
     });
+    mainbody.css("display", "block");
   }
 
   function generateContent(id, data) {
@@ -86,14 +85,20 @@ $(document).ready(function() {
           <p class="quote-owner">${data.name}</p>
         </div>
         <div class="flip-card-back">
-          <p class="quote">${data.text}</p>
+          <p class="quote">${data.content}</p>
         </div>
       </div>
     </div>
   </div>`;
   }
-  getData("resources");
-  getData("tools");
-  getData("additional");
-  getData("quotes");
+  function getData(id) {
+    mainbody.css("display", "none");
+    fetch(`assets/data/${id}.json`)
+      .then(res => res.json())
+      .then(data => {
+        generateHTML(id, data);
+        loadingSpinner.css("display", "none");
+      })
+      .catch(error => console.log(error));
+  }
 });
