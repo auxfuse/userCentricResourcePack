@@ -327,16 +327,31 @@ footer {
 }
 
 /* Loading Spinner */
+#loading-spinner {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #4c154d), color-stop(50%, #5f1960), color-stop(70%, #5f1960), to(#4c154d));
+  background: linear-gradient(180deg, #4c154d 30%, #5f1960 50%, #5f1960 70%, #4c154d 100%);
+  z-index: 9000000;
+}
+
 .sk-cube-grid {
-  width: 40px;
-  height: 40px;
-  margin: 100px auto;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 50vh;
 }
 
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #333;
+  background-color: #fff;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;

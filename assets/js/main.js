@@ -1,7 +1,10 @@
+const loadingSpinner = $("#loading-spinner");
+const mainbody = $("main");
 $(document).ready(function() {
-  const loadingSpinner = $("#loading-spinner");
   function getData(id) {
-
+    $(mainbody).css("display", "none");
+    $(loadinSpinner).css("display", "block");
+    loadingSpinner.css();
     fetch(`assets/data/${id}.json`)
       .then(res => res.json())
       .then(data => {
