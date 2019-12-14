@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const loadingSpinner = $("#loading");
+  const loadingSpinner = $("#loading-spinner");
   function getData(id) {
 
     fetch(`assets/data/${id}.json`)
