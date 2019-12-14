@@ -10,14 +10,14 @@
 	"content": "A modern, open source text editor that understands web design."
 },
 	{
-	"name": 
-	"url":
-	"content":
+	"name": "Atom",
+	"url": "https://atom.io/",
+	"content": "A hackable text editor for the 21st Century, with built in Git integration."
 },
 	{
-	"name":
-	"url":
-	"content":
+	"name": "PyCharm",
+	"url": "https://www.jetbrains.com/pycharm/?var=landing&gclid=Cj0KCQjwpavpBRDQARIsAPfTwiwVGAKj6BJxZPo9NYRGzvGcovt6W5L8Te42h49ZOvJZzwD2RL77BT8aAolPEALw_wcB",
+	"content": "PyCharm is designed by programmers, for programmers, to provide all the tools you need for productive development (with high focus on Python."
 },
 	{
 	"name":
