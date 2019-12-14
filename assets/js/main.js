@@ -1,13 +1,14 @@
 $(document).ready(function() {
+  const loadingSpinner = $("#loading");
   function getData(id) {
+
     fetch(`assets/data/${id}.json`)
       .then(res => res.json())
       .then(data => {
         generateHTML(id, data);
-      });
+      })
+      .catch(error => console.log(error));
   }
-
-  getData("resources");
 
   function generateHTML(id, data) {
     data.forEach(element => {
@@ -25,9 +26,8 @@ $(document).ready(function() {
         return additonalMarkup(data);
       case "quotes":
         return quotesMarkup(data);
-
       default:
-        break;
+        return;
     }
   }
 
@@ -61,30 +61,36 @@ $(document).ready(function() {
   }
   function additonalMarkup(data) {
     return `
-    <li class="resource-list-header">
-      <a
-        href="${data.url}"
-        target="_blank"
-        rel="noopener"
-        aria-label="${data.name}"
-      >
-        ${data.name}
-      </a>
-      <p class="li-subtext">${data.content}</p>
-    </li>`;
+    <li class="additional-list-header">
+    <a
+      href="${data.url}"
+      target="_blank"
+      rel="noopener"
+      aria-label="${data.name}"
+      >${data.name}</a
+    >
+    <p class="li-subtext">
+      ${data.content}
+    </p>
+  </li>`;
   }
   function quotesMarkup(data) {
     return `
-    <li class="resource-list-header">
-      <a
-        href="${data.url}"
-        target="_blank"
-        rel="noopener"
-        aria-label="${data.name}"
-      >
-        ${data.name}
-      </a>
-      <p class="li-subtext">${data.content}</p>
-    </li>`;
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <p class="quote-owner">${data.name}</p>
+        </div>
+        <div class="flip-card-back">
+          <p class="quote">${data.text}</p>
+        </div>
+      </div>
+    </div>
+  </div>`;
   }
+  getData("resources");
+  getData("tools");
+  getData("additional");
+  getData("quotes");
 });
