@@ -1,34 +1,34 @@
 [
-	{
-	"name": "Spence_mentor",
-	"context": "Use F12!"
-},
-	{
-	"name": "2BN-Tim",
-	"context": "Don't be afraid to create your own milestone project, and venture away from the Monkees idea!"
-},
-	{
-	"name": "",
-	"context": ""
-},
-	{
-	"name": "",
-	"context": ""
-},
-	{
-	"name": "",
-	"context": ""
-},
-	{
-	"name": "",
-	"context": ""
-},
-	{
-	"name": "",
-	"context": ""
-},
-	{
-	"name": "",
-	"context": ""
-},
+  {
+    "name": "Spence_mentor",
+    "context": "Use F12!"
+  },
+  {
+    "name": "2BN-Tim",
+    "context": "Don't be afraid to create your own milestone project, and venture away from the Monkees idea!"
+  },
+  {
+    "name": "Edel O'Sullivan",
+    "context": "When someone posts a query on slack, even if u can't help - especially if u can't help-read along and try to understand the problem and the solution."
+  },
+  {
+    "name": "",
+    "context": ""
+  },
+  {
+    "name": "",
+    "context": ""
+  },
+  {
+    "name": "",
+    "context": ""
+  },
+  {
+    "name": "",
+    "context": ""
+  },
+  {
+    "name": "",
+    "context": ""
+  }
 ]
