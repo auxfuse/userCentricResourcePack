@@ -45,9 +45,9 @@
 	 "content": "This tool enables you to compare text differences between two text files, and it also works on html. Scenario: you have source code, but when you implement it into your code, it just doesn't look right, that's where Diffchecker comes in! Let it tell you!"
  },
  {
-	 "name":
-	 "url":
-	 "content":
+	 "name": "TinyJPG",
+	 "url": "https://tinyjpg.com/",
+	 "content": "Take your imagery to the next level of compression with TinyJPG. Upload your image, let the analyser do it's job and watch as the encoder compresses & creates an optimally compressed version of that file for you to download."
  },
  {
 	 "name":
