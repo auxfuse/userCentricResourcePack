@@ -1,503 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
     <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
     <!-- Associated links for styles & frameworks -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>User Centric Frontend Development Resource Pack</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- Nav -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+      <!-- Nav -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="image-fluid"
+            src="assets/images/slackIcon.png"
+            alt="slackIcon"
+            title="Slack Logo"
+          />
+        </a>
 
-                <!-- Logo -->
-                <a class="navbar-brand" href="index.html">
-                    <img class="image-fluid" src="assets/images/slackIcon.png" alt="slackIcon" title="Slack Logo">
-                </a>
+        <!-- Toggler Icon on Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <!-- Toggler Icon on Mobile -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navigation Links -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto uppercase">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resources">Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#tools">Tools</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#additional">Additional</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto uppercase">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about"
+                >About<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#additional">Additional</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <section class="about" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-lg-3 welcome-image">
-                    <img class="image-fluid mx-auto d-block" src="assets/images/bootstrapCode.jpg" alt="boostrap snip">
-                </div>
-                <div class="col-sm-12 col-lg-9 welcome">
-                    <p class="welcome-text">Welcome to the Code Institute Full Stack
-                    Software Development Resource Pack! Like many of you, I am relatively new to
-                    the world of digital innovation, and through my time on Slack have come across
-                    some very useful Resources, Tools & Additional supports that have helped me in
-                    my journey to date.<br>
-                    My name is Anthony and as recently appointed student lead for User Centric Frontend Development, I
-                    decided to create a "webspace" dedicated to these supplementary solutions available
-                    to me, and now to you!</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3 welcome-image">
+            <img
+              class="image-fluid mx-auto d-block"
+              src="assets/images/bootstrapCode.jpg"
+              alt="boostrap snip"
+            />
+          </div>
+          <div class="col-sm-12 col-lg-9 welcome">
+            <p class="welcome-text">
+              Welcome to the Code Institute Full Stack Software Development
+              Resource Pack! Like many of you, I am relatively new to the world
+              of digital innovation, and through my time on Slack have come
+              across some very useful Resources, Tools & Additional supports
+              that have helped me in my journey to date.<br />
+              My name is Anthony and as recently appointed student lead for User
+              Centric Frontend Development, I decided to create a "webspace"
+              dedicated to these supplementary solutions available to me, and
+              now to you!
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-
     <section class="resources" id="resources">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="resource-header"><i class="fas fa-book"></i>Resources:</h1>
-                    <p class="resource-tooltip">Click on any of the below headers to be taken directly to the resource.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <ul>
-                        <li class="resource-list-header"><a href="https://www.w3schools.com/" target="_blank" rel="noopener" aria-label="W3Schools">W3Schools</a>
-                            <p class="li-subtext">W3 is an educational website for learning programming languages & frameworks, such as HTML, CSS & Bootstrap (and many more). All of which you will be using through UCFD!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener" aria-label="MDN Mozilla">MDN Mozilla</a>
-                            <p class="li-subtext">MDN Web Docs is an evolving learning platform for Web tech & the software that powers the Web, such as HTML, CSS & Javascript to name a few.</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s" target="_blank" rel="noopener" aria-label="Anna Greaves' Bootstrap Grid Tutorial">Anna Greaves' Bootstrap Grid Tutorial</a>
-                            <p class="li-subtext">Anna Greaves, a current student on the course we are all on and my predecessor as UCFD Lead, has created an incredible resource on the Bootstrap Grid. I really think Code
-                            Institute should consider putting this video in the curriculum, as I know it has helped not only me, but many MANY other students in their understanding of how to navigate the Grid!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://www.youtube.com/watch?v=yfoY53QXEnI&t=3591s" target="_blank" rel="noopener" aria-label="Traversy Media Youtube Channel">Traversy Media Youtube Channel</a>
-                            <p class="li-subtext">For the sake of this webspace, I couldn't possibly link the thousands of videos Brad from Traversy Media has made that could possibly help us in our journey, but I have linked
-                            his Crash Course on CSS3 video for you all to sink your teeth into. (P.S: There is also a HTML5 Crash course video too.)</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://www.youtube.com/watch?v=8gNrZ4lAnAw&list=PL0lNJEnwfVVN2weA7ogzp6GlJvQlXnrSj&index=11" target="_blank" rel="noopener" aria-label="Design Course Youtube Channel">Design Course Youtube Channel</a>
-                            <p class="li-subtext">Take a dive into the mind of a Frontend, state of the art UI Designer, again I couldn't possible link all of the useful videos he has made, but I have linked Gary's video on the 2019
-                                Frontend Developer Crash Course (HTML & CSS).</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="noopener" aria-label="Markdown Cheat Sheet">Markdown Cheat Sheet</a>
-                            <p class="li-subtext">This document was a godsend for me when I was writing my README.md file for my 1st milestone and I'm sure I'll be referencing it again for all the rest of my Milestone projects. The link
-                            will take you to Adam Pritchard's Github and the repo where this cheatsheet is housed!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="http://www.htmlandcssbook.com/buy/" target="_blank" rel="noopener" aria-label="Jon Duckett's Reference Books">Jon Duckett's Reference Books</a>
-                            <p class="li-subtext">Jon Duckett has created an inspirational set of reference material for anyone from the tech-savvy experienced coder to anyone with no coding experience. I bought these within my first week
-                            and have read them extensively! From HTML & CSS to Javascript & jQuery you are sure to use these throughout your entire course.</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://getbootstrap.com/" target="_blank" rel="noopener" aria-label="Bootstrap Documentation">Bootstrap Documentation</a>
-                            <p class="li-subtext">If you can think of an element, Bootstrap probably has it, from responsive imagery to dynamic collapsable elements. The documentation is easy to follow
-                                and you will be using Bootstrap to structure your Milestone projects to be responsive!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use" target="_blank" rel="noopener" aria-label=">Font Awesome">Font Awesome Iconography Documentation</a>
-                            <p class="li-subtext">Welcome to the world of Iconography! Font Awesome has a host of free icons that you can use to uplift your html elements to a more unique and eye-popping appeal. The documentation
-                                deals with start-up, linking to the website and the icons and how to style them to fit the theme/palette of your website!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562670694487700" target="_blank" rel="noopener" aria-label="Elements of User Experience">Elements of User Experience</a>
-                            <p class="li-subtext">This document write up was found by a fellow student David 'H' Hubber, it is written by Jesse James Garrett and is only one chapter of an even bigger resource. It details the importance of each 
-                                of the five planes of User Experience.</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/" target="_blank" rel="noopener" aria-label="User Stories Examples">User Stories Examples</a>
-                            <p class="li-subtext">A quick google search for User Story Examples returned thousands of search results in seconds, the link is on "How to create a good user story". For the smallest piece of work
-                                you will create during your README.md write up, it can sometimes be the hardest, give this a good run through and you should be ok to create your own!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562931178260000" target="_blank" rel="noopener" aria-label="How to make a Kick-Ass first Milestone!">How to make a Kick-Ass first Milestone!</a>
-                            <p class="li-subtext">These documents, of which there are 3, are the go to Gold Star in terms of useful resources. Once again a special thanks to Anna Greaves, my predecessor, on creating such a benchmark
-                                of knowledge that we can all use and learn from when we feel a bit lost regarding the direction to take with our projects!</p>
-                        </li>
-                        <li class="resource-list-header"><a href="assets/data/pdf/lets-git-it-toghter.pdf" aria-label="Learn how to use git">Learn how to git it</a>
-                            <p class="li-subtext">Do you "Git it"? If not, then why not get ahead of the curve and "Learn how to Git it"! From the masterful mind of one of the Course Mentors Simen Daehlin, this will surely set you on the right path!
-                                This resource is often used in tandem with Simen's great Slack Calls on the topic he hosts that has helped not only me, but countless others! I highly recommend.</p>
-                        </li>
-                    </ul>
-                 </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="resource-header">
+              <i class="fas fa-book"></i>Resources:
+            </h1>
+            <p class="resource-tooltip">
+              Click on any of the below headers to be taken directly to the
+              resource.
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-12">
+            <ul id="resources-list"></ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="tools" id="tools">
-        <div class="container cards">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="tools-header"><i class="fas fa-tools"></i>Tools:</h1>
-                    <p class="tools-tooltip">Click on any of the below card headers to be taken directly to the tool!</p>
-                </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://color.adobe.com/create" target="_blank" rel="noopener" aria-label="Adobe Color">
-                                <h5 class="card-title">Adobe Color</h5>
-                            </a>
-                                <p class="card-text">The Adobe Color service helps you choose harmonious and appealing color combinations for your design projects, it even
-                                has an upload image element that takes your image through it's intuitive system and picks the color scheme for you!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://www.cssmatic.com/" target="_blank" rel="noopener" aria-label="CSS Matic">
-                                <h5 class="card-title">CSS Matic</h5>
-                            </a>
-                                <p class="card-text">The CSS Matic helps you to generate a gradient color of your structure, border radius towards a circle or a rectangle,
-                                background noise texture and box shadows using CSS and providing you all the relevant toolkits to work on the different browsers!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="http://eye-dropper.kepi.cz/" target="_blank" rel="noopener" aria-label="Color Picker">
-                                <h5 class="card-title">Color Picker</h5>
-                            </a>
-                                <p class="card-text">This simple addition to Chrome will make your life so much easier when trying to find the color
-                                a particular site is using, made by Kepi on Github and the Color Picker that I have used for quite some time now.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://validator.w3.org/#validate_by_input" target="_blank" rel="noopener" aria-label="HTML Validator">
-                                <h5 class="card-title">HTML Validator</h5>
-                            </a>
-                                <p class="card-text">The gold star in terms of trying to find that missing `.` or `-` in your html markup. Any developer worth their salt,
-                                will use this tool on a regular basis to validate their code and make sure every div is closed and every element is structured correctly!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://www.youtube.com/watch?v=x4q86IjJFag" target="_blank" rel="noopener" aria-label="Chrome Developer Tools">
-                                <h5 class="card-title">Chrome DevTools</h5>
-                            </a>
-                                <p class="card-text">Ok, so I obviously can't link you to the DevTools, but I have linked a video from Traversy Media, which is a
-                                tutorial Crash Course on how to open and use! I 100% recommend you get used to this Tool, as it is every developer's best friend.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener" aria-label="CSS Validator">
-                                <h5 class="card-title">CSS Validator</h5>
-                            </a>
-                                <p class="card-text">As with the HTML Validator, this CSS version ensure that you have accounted for every possible closing curly brace,
-                                every `,` comma seperated when needed. Another one of those essential tools for all developers, maintaining that tool of the trade mantra!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://boostnote.io/" target="_blank" rel="noopener" aria-label="Boostnote">
-                                <h5 class="card-title">Boostnote</h5>
-                            </a>
-                                <p class="card-text">A truly distraction free, live preview, what you see is what you get Markdown Editor.  Install this to your local device for a simple and effective README editor.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://autoprefixer.github.io/" target="_blank" rel="noopener" aria-label="CSS Autoprefixer">
-                                <h5 class="card-title">CSS Autoprefixer</h5>
-                            </a>
-                                <p class="card-text">Take your CSS code blocks, and parse them through this incredible tool, which digests those blocks and returns the
-                                appropriate vendor prefixes needed for your code to work in ALL browsers, anything from animations to flexbox and eveything in between.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://www.diffchecker.com/" target="_blank" rel="noopener" aria-label="DiffChecker">
-                                <h5 class="card-title">Diffchecker</h5>
-                            </a>
-                                <p class="card-text">This tool enables you to compare text differences between two text files, and it also works on html. Scenario:
-                                you have source code, but when you implement it into your code, it just doesn't look right, that's where Diffchecker comes in! Let it tell you!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://tinyjpg.com/" target="_blank" rel="noopener" aria-label="Tiny JPG">
-                                <h5 class="card-title">TinyJPG.com</h5>
-                            </a>
-                                <p class="card-text">Take your imagery to the next level of compression with TinyJPG. Upload your image, let the analyser do it's
-                                job and watch as the encoder compresses & creates an optimally compressed version of that file for you to download.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://code-institute-room.slack.com/archives/C0L316Z96/p1549645893077000" target="_blank" rel="noopener" aria-label="Balsamiq">
-                                <h5 class="card-title">Balsamiq</h5>
-                            </a>
-                                <p class="card-text">This link will bring you back to Slack, where you can follow the post from Niel_ci to download and get this
-                                wireframing tool completely for Free! With Balsamiq, anyone can design and plan great website for all viewport widths.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://www.pexels.com/" target="_blank" rel="noopener" aria-label="Pexels">
-                                <h5 class="card-title">Pexels</h5>
-                            </a>
-                                <p class="card-text">Pexels provides free stock photos, which can be used for commercial design purposes without the hassle of copyright
-                                infringement. Very easy site to navigate and with thousand of photos, don't get lost!! Just click and download to your local device.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://mycolor.space/" target="_blank" rel="noopener" aria-label="ColorSpace">
-                                <h5 class="card-title">ColorSpace</h5>
-                            </a>
-                                <p class="card-text">Another great tool on finding that perfect Color palette. Does your website logo contain one dominant color?
-                                Cool, just type in the hexcode into ColorSpace and let it tell you the perfect combination of colors for your project.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row card-row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://codepen.io/" target="_blank" rel="noopener" aria-label="Code Pen">
-                                <h5 class="card-title">CodePen.io</h5>
-                            </a>
-                            <p class="card-text">Welcome to the world of online's easiest IDE!! CodePen.io.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="http://colormind.io/" target="_blank" rel="noopener" aria-label="Colormind">
-                                <h5 class="card-title">Colormind</h5>
-                            </a>
-                                <p class="card-text">Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener" aria-label="WebAim">
-                                <h5 class="card-title">WebAIM</h5>
-                            </a>
-                                <p class="card-text">Color contrast checker.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln" target="_blank" rel="noopener">
-                                <h5 class="card-title">Unicorn Revealer</h5>
-                            </a>
-                                <p class="card-text">Do you have overflow on your website and want to try find it. Sparkle some 🦄🌈on your website and find where it is.
-                                    As a web developer it can be hard to inspect and find out where overlow is located. You can sprinke some 🦄🌈 on the website and it will turn all black and pink, this will show the borders and make it easier to debug. It is as simple as right click a website Sparkle it on once done right click and remove the sparkle.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container cards">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="tools-header"><i class="fas fa-tools"></i>Tools:</h1>
+            <p class="tools-tooltip">
+              Click on any of the below card headers to be taken directly to the
+              tool!
+            </p>
+          </div>
         </div>
+        <div class="row card-row" id="tools-list"></div>
+      </div>
     </section>
 
     <section class="additional" id="additional">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="additional-header"><i class="fas fa-code"></i>Additional:</h1>
-                    <p class="additional-tooltip">Supplementary info! Helpful tips, advice & quotes from Slack users.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="additional-text">A hot topic right now is "What Editor can we use?". Recently Code Institute students had to migrate from Cloud9, (an online
-                    IDE), to AWS-Cloud9, (Cloud9 assumed by Amazon services). With this migration, it brought a host of new issues, learning curves and new questions such as the one above.
-                    For the record, although it is recommended that students use the AWS-C9 IDE, it is important to note that this is not mandatory.<br>
-                    Even before the migration, I myself opted to use an editor called PyCharm, which was recommended to me by my mentor. I followed along to the course material adjusting as needed, and have
-                    been using it ever since, (my entire Milestone 1 was coded in PyCharm).<br>
-                    Below you will find a short list detailing some of the IDE's I've seen people talk about using in the Slack App:</p>
-                </div>
-            </div>
-            <div class="row">
-                <ul>
-                   <li class="additional-list-header"><a href="https://code.visualstudio.com/" target="_blank" rel="noopener" aria-label="Visual Studio Code">Visual Studio Code</a>
-                            <p class="li-subtext">Free. Built on open source. Runs everywhere. Probably the most preferred in our community right now.</p>
-                    </li>
-                    <li class="additional-list-header"><a href="http://brackets.io/" target="_blank" rel="noopener" aria-label="Brackets">Brackets</a>
-                            <p class="li-subtext">A modern, open source text editor that understands web design.</p>
-                    </li>
-                    <li class="additional-list-header"><a href="https://atom.io/" target="_blank" rel="noopener" aria-label="Atom">Atom</a>
-                            <p class="li-subtext">A hackable text editor for the 21st Century, with built in Git integration.</p>
-                    </li>
-                    <li class="additional-list-header"><a href="https://www.jetbrains.com/pycharm/?var=landing&gclid=Cj0KCQjwpavpBRDQARIsAPfTwiwVGAKj6BJxZPo9NYRGzvGcovt6W5L8Te42h49ZOvJZzwD2RL77BT8aAolPEALw_wcB" target="_blank" rel="noopener" aria-label="Pycharm">PyCharm</a>
-                            <p class="li-subtext">PyCharm is designed by programmers, for programmers, to provide all the tools you need for productive development (with high focus on Python).</p>
-                    </li>
-                    <li class="additional-list-header"><a href="https://notepad-plus-plus.org/download/v7.7.1.html" target="_blank" rel="noopener" aria-label="Notepad++">Notepad++</a>
-                            <p class="li-subtext">Notepad++: a free source code editor which supports several programming languages running under the MS Windows environment.</p>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="additional-header">
+              <i class="fas fa-code"></i>Additional:
+            </h1>
+            <p class="additional-tooltip">
+              Supplementary info! Helpful tips, advice & quotes from Slack
+              users.
+            </p>
+          </div>
         </div>
-        <div class="container additional-cards d-none d-sm-none d-md-block">
-            <h4 class="quotes-header"><i class="fas fa-comment"></i>Quotes from the Community</h4>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">Spence_mentor</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">Use F12!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">2BN-Tim</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">Don't be afraid to create your own milestone project, and venture away from the Monkees idea!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">Edel O'Sullivan</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">When someone posts a query on slack, even if u can't help - especially if u can't help -
-                                    read along and try to understand the problem and the solution.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">Matthew</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">I would make sure to remember that all aspects of design aren’t personal therefore, you have to
-                                    think of the user.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">JoWings</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">Don't get disheartened if you don't get something straight off. It will click the more you use it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">Eventyret_mentor</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">Don't walk the road alone, stick toghter and climb any mountain together!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">Anna_G</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">Community is a powerful thing, getting involved, asking for help _and especially_ supporting others will
-                                    take you a long way on this course (and in life).</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="quote-owner">Anthony_lead</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="quote">Work hard, have fun, ask the questions!<br>In the words of Po, Kung Fu Panda: "There is no secret ingredient; it's just you".</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="additional-text">
+              A hot topic right now is "What Editor can we use?". Recently Code
+              Institute students had to migrate from Cloud9, (an online IDE), to
+              AWS-Cloud9, (Cloud9 assumed by Amazon services). With this
+              migration, it brought a host of new issues, learning curves and
+              new questions such as the one above. For the record, although it
+              is recommended that students use the AWS-C9 IDE, it is important
+              to note that this is not mandatory.<br />
+              Even before the migration, I myself opted to use an editor called
+              PyCharm, which was recommended to me by my mentor. I followed
+              along to the course material adjusting as needed, and have been
+              using it ever since, (my entire Milestone 1 was coded in
+              PyCharm).<br />
+              Below you will find a short list detailing some of the IDE's I've
+              seen people talk about using in the Slack App:
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <ul id="additonal-list"></ul>
+        </div>
+      </div>
+      <div class="container additional-cards d-none d-sm-none d-md-block">
+        <h4 class="quotes-header">
+          <i class="fas fa-comment"></i>Quotes from the Community
+        </h4>
+        <div class="row" id="quotes-list"></div>
+      </div>
     </section>
 
     <footer>
-        <span class="footer-text text-center my-auto">Made by Anthony, Student lead for UCFD July/August 2019</span><br>
-        <span class="copyright text-center my-auto">For educational purposes Code Institute &copy;</span>
+      <span class="footer-text text-center my-auto"
+        >Made by Anthony, Student lead for UCFD July/August 2019</span
+      ><br />
+      <span class="copyright text-center my-auto"
+        >For educational purposes Code Institute &copy;</span
+      >
     </footer>
 
-<!-- JQuery for Navbar expansion/collapse & Modal popup -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="assets/js/main.js"></script>
-
-
-
-</body>
+    <!-- JQuery for Navbar expansion/collapse & Modal popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
