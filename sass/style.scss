@@ -1,5 +1,7 @@
 /* Global styles */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(
     180deg,
@@ -8,8 +10,6 @@ body {
     #5f1960 70%,
     #4c154d 100%
   );
-
-  /*background-color: #4C154D;*/
   font-family: consolas, sans-serif;
 }
 
