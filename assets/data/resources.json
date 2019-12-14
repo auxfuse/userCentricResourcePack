@@ -5,63 +5,63 @@
     "content": "W3 is an educational website for learning programming languages & frameworks, such as HTML, CSS & Bootstrap (and many more). All of which you will be using through UCFD!"
   },
   {
-	  "name": "MDN Mozilla",
-	  "url": "https://developer.mozilla.org/en-US/",
-	  "content": "MDN Web Docs is an evolving learning platform for Web tech & the software that powers the Web, such as HTML, CSS & Javascript to name a few."
+    "name": "MDN Mozilla",
+    "url": "https://developer.mozilla.org/en-US/",
+    "content": "MDN Web Docs is an evolving learning platform for Web tech & the software that powers the Web, such as HTML, CSS & Javascript to name a few."
   },
   {
-	  "name": "Anna Greaves' Bootstrap Grid Tutorial",
-	  "url": "https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s",
-	  "content": "Anna Greaves, a current student on the course we are all on and my predecessor as UCFD Lead, has created an incredible resource on the Bootstrap Grid. I really think Code Institute should consider putting this video in the curriculum, as I know it has helped not only me, but many MANY other students in their understanding of how to navigate the Grid!"
+    "name": "Anna Greaves' Bootstrap Grid Tutorial",
+    "url": "https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s",
+    "content": "Anna Greaves, a current student on the course we are all on and my predecessor as UCFD Lead, has created an incredible resource on the Bootstrap Grid. I really think Code Institute should consider putting this video in the curriculum, as I know it has helped not only me, but many MANY other students in their understanding of how to navigate the Grid!"
   },
   {
-	  "name": "Traversy Media Youtube Channel",
-	  "url": "https://www.youtube.com/watch?v=yfoY53QXEnI&t=3591s",
-	  "content": "For the sake of this webspace, I couldn't possibly link the thousands of videos Brad from Traversy Media has made that could possibly help us in our journey, but I have linked his Crash Course on CSS3 video for you all to sink your teeth into. (P.S: There is also a HTML5 Crash course video too.)"
+    "name": "Traversy Media Youtube Channel",
+    "url": "https://www.youtube.com/watch?v=yfoY53QXEnI&t=3591s",
+    "content": "For the sake of this webspace, I couldn't possibly link the thousands of videos Brad from Traversy Media has made that could possibly help us in our journey, but I have linked his Crash Course on CSS3 video for you all to sink your teeth into. (P.S: There is also a HTML5 Crash course video too.)"
   },
   {
-	  "name": "Design Course Youtube Channel",
-	  "url": "https://www.youtube.com/watch?v=8gNrZ4lAnAw&list=PL0lNJEnwfVVN2weA7ogzp6GlJvQlXnrSj&index=11",
-	  "content": "Take a dive into the mind of a Frontend, state of the art UI Designer, again I couldn't possible link all of the useful videos he has made, but I have linked Gary's video on the 2019 Frontend Developer Crash Course (HTML & CSS)"
+    "name": "Design Course Youtube Channel",
+    "url": "https://www.youtube.com/watch?v=8gNrZ4lAnAw&list=PL0lNJEnwfVVN2weA7ogzp6GlJvQlXnrSj&index=11",
+    "content": "Take a dive into the mind of a Frontend, state of the art UI Designer, again I couldn't possible link all of the useful videos he has made, but I have linked Gary's video on the 2019 Frontend Developer Crash Course (HTML & CSS)"
   },
   {
-	  "name": "Markdown Cheat Sheet",
-	  "url": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
-	  "content": "This document was a godsend for me when I was writing my README.md file for my 1st milestone and I'm sure I'll be referencing it again for all the rest of my Milestone projects. The link will take you to Adam Pritchard's Github and the repo where this cheatsheet is housed!"
+    "name": "Markdown Cheat Sheet",
+    "url": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+    "content": "This document was a godsend for me when I was writing my README.md file for my 1st milestone and I'm sure I'll be referencing it again for all the rest of my Milestone projects. The link will take you to Adam Pritchard's Github and the repo where this cheatsheet is housed!"
   },
   {
-	  "name": "Jon Duckett's Reference Books",
-	  "url": "http://www.htmlandcssbook.com/buy/",
-	  "content": "Jon Duckett has created an inspirational set of reference material for anyone from the tech-savvy experienced coder to anyone with no coding experience. I bought these within my first week and have read them extensively! From HTML & CSS to Javascript & jQuery you are sure to use these throughout your entire course."
+    "name": "Jon Duckett's Reference Books",
+    "url": "http://www.htmlandcssbook.com/buy/",
+    "content": "Jon Duckett has created an inspirational set of reference material for anyone from the tech-savvy experienced coder to anyone with no coding experience. I bought these within my first week and have read them extensively! From HTML & CSS to Javascript & jQuery you are sure to use these throughout your entire course."
   },
   {
-	  "name": "Bootstrap Documentation",
-	  "url": "https://getbootstrap.com/",
-	  "content": "If you can think of an element, Bootstrap probably has it, from responsive imagery to dynamic collapsable elements. The documentation is easy to follow and you will be using Bootstrap to structure your Milestone projects to be responsive!"
+    "name": "Bootstrap Documentation",
+    "url": "https://getbootstrap.com/",
+    "content": "If you can think of an element, Bootstrap probably has it, from responsive imagery to dynamic collapsable elements. The documentation is easy to follow and you will be using Bootstrap to structure your Milestone projects to be responsive!"
   },
   {
-	  "name": "Font Awesome Iconography Documentation",
-	  "url": "https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use",
-	  "content": "Welcome to the world of Iconography! Font Awesome has a host of free icons that you can use to uplift your html elements to a more unique and eye-popping appeal. The documentation deals with start-up, linking to the website and the icons and how to style them to fit the theme/palette of your website!"
+    "name": "Font Awesome Iconography Documentation",
+    "url": "https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use",
+    "content": "Welcome to the world of Iconography! Font Awesome has a host of free icons that you can use to uplift your html elements to a more unique and eye-popping appeal. The documentation deals with start-up, linking to the website and the icons and how to style them to fit the theme/palette of your website!"
   },
   {
-	  "name": "User Stories Examples",
-	  "url": "https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/",
-	  "content": "A quick google search for User Story Examples returned thousands of search results in seconds, the link is on 'How to create a good user story'. For the smallest piece of work you will create during your README.md write up, it can sometimes be the hardest, give this a good run through and you should be ok to create your own!"
+    "name": "User Stories Examples",
+    "url": "https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/",
+    "content": "A quick google search for User Story Examples returned thousands of search results in seconds, the link is on 'How to create a good user story'. For the smallest piece of work you will create during your README.md write up, it can sometimes be the hardest, give this a good run through and you should be ok to create your own!"
   },
   {
-	  "name": "Elements of User Experience",
-	  "url": "https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562670694487700",
-	  "content": "This document write up was found by a fellow student David 'H' Hubber, it is written by Jesse James Garrett and is only one chapter of an even bigger resource. It details the importance of each of the five planes of User Experience."
+    "name": "Elements of User Experience",
+    "url": "https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562670694487700",
+    "content": "This document write up was found by a fellow student David 'H' Hubber, it is written by Jesse James Garrett and is only one chapter of an even bigger resource. It details the importance of each of the five planes of User Experience."
   },
   {
-	  "name": "How to make a Kick-Ass first Milestone!",
-	  "url": "https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562931178260000",
-	  "content": "These documents, of which there are 3, are the go to Gold Star in terms of useful resources. Once again a special thanks to Anna Greaves, my predecessor, on creating such a benchmark of knowledge that we can all use and learn from when we feel a bit lost regarding the direction to take with our projects!"
+    "name": "How to make a Kick-Ass first Milestone!",
+    "url": "https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1562931178260000",
+    "content": "These documents, of which there are 3, are the go to Gold Star in terms of useful resources. Once again a special thanks to Anna Greaves, my predecessor, on creating such a benchmark of knowledge that we can all use and learn from when we feel a bit lost regarding the direction to take with our projects!"
   },
   {
-	  "name":
-	  "url":
-	  "content":
+    "name": "Learn how to git it",
+    "url": "assets/data/pdf/lets-git-it-toghter.pdf",
+    "content": "Do you 'Git it'? If not, then why not get ahead of the curve and 'Learn how to Git it'! From the masterful mind of one of the Course Mentors Simen Daehlin, this will surely set you on the right path! This resource is often used in tandem with Simen's great Slack Calls on the topic he hosts that has helped not only me, but countless others! I highly recommend."
   }
 ]
