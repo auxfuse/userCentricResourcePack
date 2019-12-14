@@ -25,9 +25,9 @@
 	 "content": "As with the HTML Validator, this CSS version ensure that you have accounted for every possible closing curly brace, every `,` comma seperated when needed. Another one of those essential tools for all developers, maintaining that tool of the trade mantra!"
  },
  {
-	 "name":
-	 "url":
-	 "content":
+	 "name": "Chrome DevTools",
+	 "url": "https://www.youtube.com/watch?v=x4q86IjJFag",
+	 "content": "Ok, so I obviously can't link you to the DevTools, but I have linked a video from Traversy Media, which is a tutorial Crash Course on how to open and use! I 100% recommend you get used to this Tool, as it is every developer's best friend."
  },
  {
 	 "name":
