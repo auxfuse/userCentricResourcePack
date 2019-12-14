@@ -30,14 +30,14 @@
 	 "content": "Ok, so I obviously can't link you to the DevTools, but I have linked a video from Traversy Media, which is a tutorial Crash Course on how to open and use! I 100% recommend you get used to this Tool, as it is every developer's best friend."
  },
  {
-	 "name": "Boostnote"
-	 "url":
+	 "name": "Boostnote",
+	 "url":"https://boostnote.io/",
 	 "content": "A truly distraction free, live preview, what you see is what you get Markdown Editor. Install this to your local device for a simple and effective README editor."
  },
  {
-	 "name":
-	 "url":
-	 "content":
+	 "name": "CSS Autoprefixer",
+	 "url": "https://autoprefixer.github.io/",
+	 "content": "Take your CSS code blocks, and parse them through this incredible tool, which digests those blocks and returns the appropriate vendor prefixes needed for your code to work in ALL browsers, anything from animations to flexbox and eveything in between."
  },
  {
 	 "name":
