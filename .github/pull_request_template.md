@@ -1,6 +1,6 @@
 ## What did you implement:
 
-type here
+
 
 <!--
 Briefly describe the feature if no issue exists for this PR
@@ -8,13 +8,15 @@ Briefly describe the feature if no issue exists for this PR
 
 ## How did you implement it:
 
-type here
+
 
 <!--
 If this is a nontrivial change please briefly describe your implementation so its easy for us to understand and review your code.
 -->
 
 ## How can this change be verified:
+
+
 
 <!--
 Add any applicable config, commands, screenshots or other resources
