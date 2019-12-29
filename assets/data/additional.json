@@ -1,8 +1,18 @@
 [
   {
+    "name": "GitPod",
+    "url": "https://www.gitpod.io/",
+    "content": "This is the current Code Institute IDE. It is cloud based and free. Looks and feels a lot like Visual Studio Code, but without the differences caused by different operating systems on your local computer. If you have a GitPod account you can easily share your live site with other students, and share your code with CI tutors if you have a problem they need to look at."
+  },
+  {
     "name": "Visual Studio Code",
     "url": "https://code.visualstudio.com/",
-    "content": "Free. Built on open source. Runs everywhere. Probably the most preferred in our community right now."
+    "content": "Free. Built on open source. Runs everywhere. Locally installed on your own machine. Probably the most preferred in our community right now. Requires some additional setup not needed with a cloud based IDE. Probably a better IDE to use once you have some experience with using a cloud based one."
+  },
+  {
+    "name": "AWS-Cloud9",
+    "url": "https://aws.amazon.com/cloud9/",
+    "content": "Cloud based, online, many of the current Code Institute videos were made using it. However after AWS took it over last year and changed important features it proved to be very unpopular with students, which is why Code Institute moved to the GitPod IDE"
   },
   {
     "name": "Brackets",
