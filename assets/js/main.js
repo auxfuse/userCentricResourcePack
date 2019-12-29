@@ -125,7 +125,7 @@ function generateContent(id, data) {
       return resourcesMarkup(data);
     case "tools":
       return toolsMarkup(data);
-    case "additonal":
+    case "additional":
       return additonalMarkup(data);
     case "quotes":
       return quotesMarkup(data);
